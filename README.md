@@ -1,0 +1,2 @@
+# Attention_based_MultiHead_model_for_aircraft_engine_RUL_prediction_
+Attention-based multihead model for optimized aircraft engine remaining useful life prediction
