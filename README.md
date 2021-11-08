@@ -6,7 +6,7 @@ A deep AMCNLSTM network is trained using the FD001 subset in the NASA's [C-MAPSS
 
 # Dataset
 
-The dataset (FD001) is a subset of the original C-MAPSS dataset provided by NASA. Data cleaning and preprocessing is done by the functions provided in the notebook. The code in the notebook can also be used to evaluate the predictive power of the model on other data subsets (e.g. FD002, FD003, and FD004) provided [here](dataset)
+The dataset (FD001) is a subset of the original C-MAPSS dataset provided by NASA. Data cleaning and preprocessing is done by the functions provided in the notebook. The code in the notebook can also be used to evaluate the predictive power of the model on other data subsets (e.g. FD002, FD003, and FD004) provided [here](dataset).
 
 # Model
 
