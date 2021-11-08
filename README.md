@@ -1,6 +1,6 @@
 # Attention-based | MultiHead | CNLSTM | for RUL prediction
 
-This repository demonstrates the implementation of an attention-based multihead convolution long-short term memory network (AMCNLSTM), similar to one of the models presented in this work. A multihead model is a form of ensemble deep learning model that have been found to produce state-of-the-art results on a number of tasks. In this work, the attention-based multihead model is used for improved remaining useful life prediction of aircraft engines. 
+This repository demonstrates the implementation of an attention-based multihead convolution long-short term memory network (AMCNLSTM), similar to one of the models presented in [this work](https://arxiv.org/abs/2109.01761). A multihead model is a form of ensemble deep learning model that have been found to produce state-of-the-art results on a number of tasks. In this work, the attention-based multihead model is used for improved remaining useful life prediction of aircraft engines. 
 
 A deep AMCNLSTM network is trained using the FD001 subset in the NASA's [C-MAPSS dataset](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/). This implementation also utilized a threshold approach called [piecewise RUL](https://github.com/abiodun-ayodeji/Predictive-Maintenance) to define the engine pre-degradation cycle when the engine is assumed to operate in a normal state. This implementation also uses selected sensor readings, and functions are provided to experiment with other subsets of the C-MAPSS dataset.
 
