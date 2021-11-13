@@ -12,7 +12,7 @@ The dataset (FD001) is a subset of the original C-MAPSS dataset provided by NASA
 
 Each head of the AMCNLSTM RUL estimator has two one-dimensional convolution layers, separated by LeakyRelu and BatchNormalization layer. It also has one LSTM layer, and a self-attention layer which is then max-pooled and and flattened. Each head is used to learn the patterns in each feature in the training input. The output from each head is then concatenated, and a dense layer is used as the final output.  
 
-For instance, this is how an AMCNLSTM predictor for an input with ten features look like:
+This is the graph of an AMCNLSTM predictor with ten input features:
 
 ![Attention-based multihead model](AMCNLSTM.png)
 
